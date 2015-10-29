@@ -1,0 +1,25 @@
+Name of QuantLet : LQRcheck
+
+Published in : Local Quantile Regression
+
+Description : 'Plot asymetric loss functions(for different parameter).'
+
+Keywords : 
+- expectile
+- loss function
+- quantile
+
+See also : 
+- LAWS
+- LFrobust
+- LQRlidar
+- LQRquantilecurve
+
+Author : 
+- Petra Burdejova
+
+
+Submitted : Tue, February 25 2014 by Maria Osipenko
+
+Input : x - grid
+        q - quantile/expectile level
