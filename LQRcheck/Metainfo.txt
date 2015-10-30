@@ -9,6 +9,7 @@ Keywords :
 - quantile
 - loss function
 - asymmetric
+- quantile regression
 - plot
 
 See also : 
