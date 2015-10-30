@@ -27,5 +27,5 @@ Input :
 - x : grid
 - q : quantile/expectile level
 
-Example:
+Example :
 An example is generated for predefined xgrid [-3,3], q = 0.5 and q = 0.9.
