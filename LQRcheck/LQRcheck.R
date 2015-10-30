@@ -21,10 +21,9 @@ y_rho2_05 = rho_e(xgrid, q_050)
 y_rho2_09 = rho_e(xgrid, q_090)
 
 plot_title = expression(paste("Loss function ", rho[q](x) == abs(x)^{
-    tau
-} * abs(q - I[(x < 0)])))
+    tau} * abs(q - I[(x < 0)])))
 plot(xgrid, y_rho1_05$f, type = "l", col = "red", lwd = 3, lty = 5, cex.axis = 1, 
-    xaxs = "i", yaxs = "i", xlab = "x", ylab = "loss function", main = plot_title)  #end of plot
+    xaxs = "i", yaxs = "i", xlab = "x", ylab = "loss function", main = plot_title)
 lines(xgrid, y_rho1_09$f, type = "l", col = "red", lwd = 3)
 lines(xgrid, y_rho2_05$f, type = "l", col = "blue", lwd = 3, lty = 5)
 lines(xgrid, y_rho2_09$f, type = "l", col = "blue", lwd = 3)
@@ -32,4 +31,4 @@ lines(xgrid, y_rho2_09$f, type = "l", col = "blue", lwd = 3)
 legend(1.35, 0.28, c(expression(paste(tau == 1, " ", q == 0.9)), expression(paste(tau == 
     1, " ", q == 0.5)), expression(paste(tau == 2, " ", q == 0.9)), expression(paste(tau == 
     2, " ", q == 0.5))), text.width = 8, lwd = c(3, 3, 3, 3), lty = c(1, 3, 1, 3), 
-    col = c("red", "red", "blue", "blue"))  # end of legend 
+    col = c("red", "red", "blue", "blue"))
