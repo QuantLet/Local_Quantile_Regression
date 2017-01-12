@@ -3,12 +3,12 @@ Name of Quantlet: LQR_expectilecurves
 
 Published in:     Local Quantile Regression
 
-Description:      'Plots the expectile curves (by pointwise estimation) under several 
-                  tau levels with simulated data from AR(1) process.'
+Description:      'Plots the expectile curves (pointwise estimation by LAWS) under several 
+                  tau levels with simulated data.'
 
 Keywords:         plot, expectile, curve, tail, simulation
 
-Author:           Chen Huang
+Author:           Chen Huang, Petra Burdejova
 
 Submitted:        Thu, January 12 2017 by Chen Huang
 
