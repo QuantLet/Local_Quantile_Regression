@@ -1,0 +1,15 @@
+
+Name of Quantlet: LQR_expectilecurves
+
+Published in:     Local Quantile Regression
+
+Description:      'Plots the expectile curves (by pointwise estimation) under several 
+                  tau levels with simulated data from AR(1) process.'
+
+Keywords:         plot, expectile, curve, tail, simulation
+
+Author:           Chen Huang
+
+Submitted:        Thu, January 12 2017 by Chen Huang
+
+Example:          Expectile curves with tau = 0.1, 0.5, 0.9 
