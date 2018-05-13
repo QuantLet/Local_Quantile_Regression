@@ -1,0 +1,30 @@
+Name of QuantLet : LAWS
+
+Published in : 'Metis - LAWS'
+
+Description : 'Plots the asymmetric quantile/expectile loss functions (for different quantile/expectile levels).'
+
+Keywords : 
+- expectile
+- quantile
+- loss function
+- asymmetric
+- quantile regression
+- Huber loss
+
+See also : 
+- LAWS
+- LFrobust
+- LQRcheck
+- LQRquantilecurve
+
+Author : 
+- Natalia Sirotko-Sibirskaya
+
+Submitted : Sun, May 13 2018 by Petra Burdejova
+
+Input : 
+- x : grid
+- q : quantile/expectile level
+
+Example : 'An example is generated for linear and B-spline-based regression for uniformly distributed x and tau = 0.9, df = 3, k = 0.1'
